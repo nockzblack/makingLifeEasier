@@ -13,7 +13,7 @@ import os
 
 files_list = os.listdir() # get a list of all files in the folder 
 
-files_list.remove("test.py")
+files_list.remove("test.py") # removing the file itself in order to do not lose it
 
 
 
